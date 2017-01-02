@@ -1,0 +1,116 @@
+@media all and (max-width: 768px) {
+    .header-one-wrapper {
+        width: 100%;
+    }
+    .events,
+    .who-we-are {
+        padding-left: 0;
+    }
+    .triangle-one,
+    .triangle-two,
+    .triangle-three,
+    .triangle-four,
+    .triangle-five,
+    .triangle-one-green {
+        display: none;
+    }
+    .footer-one-wrapper {
+        width: 96%;
+    }
+    .left-footer {
+        width: 100%;
+    }
+    .right-footer {
+        width: 100%;
+    }
+    .wwa-content-left {
+        width: 100%;
+        color: #424244;
+        padding: 10px 15px 0 15px;
+        line-height: 20px;
+        margin: auto;
+        float: none;
+    }
+    .wwa-right-banner {
+        margin-top: 0;
+    }
+    .wwa-content-right {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .wwa-content {
+        width: 100%;
+        float: none;
+        padding-bottom: 0;
+    }
+    .wwa-small-hdr4,
+    .wwa-small-hdr3,
+    .wwa-small-hdr2,
+    .wwa-small-hdr1 {
+        margin-top: 20px;
+    }
+    .event-dc-left,
+    .event-dc-right {
+        float: none;
+        width: 100%;
+    }
+    .event-ls-right,
+    .event-ls-left {
+        width: 100%;
+        float: none;
+    }
+    .event-rt-ls li {
+        margin-left: 20px;
+    }
+    .event-rt-ls-left {
+        float: none;
+        width: 100%;
+    }
+    .ban-left-portion,
+    .ban-right-portion {
+        width: 100%;
+        float: none;
+    }
+    .small-hdr {
+        font-size: 12px;
+    }
+    .big-hdr {
+        font-size: 34px;
+        width: auto;
+        margin-top: 10px;
+        line-height: 38px;
+        text-shadow: 2px 2px 0 #fff;
+    }
+    .ban-content-bg {
+        width: auto;
+        padding: 12px 10px 20px 15px;
+        margin-top: 10px;
+    }
+    .ban-content-firsthdr {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .ban-content-bg p {
+        font-size: 14px;
+    }
+    .ban-right-portion h2 {
+        margin-top: 10px;
+        font-size: 22px;
+    }
+    .ban-right-portion h5 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .arrow {
+        font-size: 30px !important;
+    }
+    .button {
+        display: block;
+    }
+    .button.enroll-now a {
+        margin: 25px 0 0 0;
+        width: 100%;
+        text-align: center;
+    }
+}

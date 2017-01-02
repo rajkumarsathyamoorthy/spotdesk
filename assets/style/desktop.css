@@ -1,0 +1,25 @@
+@media all and (min-width: 1180px) and (max-width: 1358px) {
+    .event-dc-left {
+        float: left;
+        width: 70%;
+    }
+    .event-dc-right {
+        width: 30%;
+    }
+    .event-date-content {
+        background: transparent;
+    }
+    .event-rt-ls-left {
+        width: 100%;
+    }
+    .event-rt-ls li {
+        margin: 0 0 10px 32px;
+    }
+}
+@media all and (min-width: 1024px) and (max-width: 1180px) {
+  .event-dc-right, .event-dc-left {
+    float: none;
+    width: 100%;
+  }
+
+}
