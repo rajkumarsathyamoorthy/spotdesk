@@ -1,4 +1,4 @@
-@media all and (max-width: 768px) {
+@media all and (max-width: 990px) {
     .header-one-wrapper {
         width: 100%;
     }
@@ -61,7 +61,10 @@
         float: none;
     }
     .event-rt-ls li {
-        margin-left: 20px;
+        margin-left:0;
+    }
+    .header-one{
+      margin-top: 0;
     }
     .event-rt-ls-left {
         float: none;
@@ -85,17 +88,27 @@
     .ban-content-bg {
         width: auto;
         padding: 12px 10px 20px 15px;
-        margin-top: 10px;
+        margin-top: 20px;
     }
     .ban-content-firsthdr {
         font-size: 22px;
         margin-bottom: 10px;
-    }
+    }.rf-links {
+    float: none;
+    margin-right: 0;
+    text-align: center;
+}.company-list1 {
+    float: left;
+    width: 50%;
+}
+.footer{
+  padding-bottom: 20px;
+}
     .ban-content-bg p {
         font-size: 14px;
     }
     .ban-right-portion h2 {
-        margin-top: 10px;
+        margin-top: 30px;
         font-size: 22px;
     }
     .ban-right-portion h5 {
@@ -113,4 +126,26 @@
         width: 100%;
         text-align: center;
     }
+    .event-list li, .events-hdr, .wwa-hdr, .event-rt, .ban-left-portion, .ban-right-portion {
+      text-align: center;
+    }
+    .event-rt-ls-right{
+      float: none;width: 100%;
+    }
+    .events-hdr , .wwa-hdr{
+    padding: 20px 10px 20px 20px;
+    font-size: 30px;
+}
+.event-title{
+  font-size: 20px;
+}
+.wwa-small-hdr3{
+  font-size: 20px;
+  line-height: 23px;
+}.event-rt-ls li:nth-child(1) {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}.event-date-big{
+  font-size: 32px;
+}
 }

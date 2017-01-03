@@ -15,11 +15,29 @@
     .event-rt-ls li {
         margin: 0 0 10px 32px;
     }
+    .header-one-wrapper{
+      width: 100%;
+    }
 }
-@media all and (min-width: 1024px) and (max-width: 1180px) {
+@media all and (min-width: 991px) and (max-width: 1180px) {
+  .header-one-wrapper{
+    width: 100%;
+  }
+  .main-container {
+      background-size: cover;
+  }
+  .main-menu li a {
+    padding: 28px 20px;
+}
   .event-dc-right, .event-dc-left {
     float: none;
     width: 100%;
   }
+  .ban-right-portion {
+    padding: 0 46px;
+  }
+  .ban-right-portion h2 {
+    font-size: 50px;
+}
 
 }
