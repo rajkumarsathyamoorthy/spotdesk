@@ -408,12 +408,6 @@ body {
     background-color: rgba(129, 204, 174, 0.5);
     padding-left: 124px;
 }
-.event-left {
-    width: 8%;
-    float: left;
-    padding: 10px;
-    display: inline-block;
-}
 .event-content {
     width: 100%;
     float: left;
@@ -866,4 +860,97 @@ body {
 }
 .aside-date.grey {
     color: rgb(66, 66, 68);
+}
+
+/* sylabus */
+
+.sylabus{
+    float: left;
+    overflow: hidden;
+    margin: 0 0 0 0;
+    width: 100%;
+    background-color: rgba(129, 204, 174, 0.5);
+    padding-left: 124px;
+}
+.sylabus-content {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    position: relative;
+    background: #424244;
+}
+.sylabus-main-menu {
+    list-style: none;
+    float: left;
+}
+.sylabus-main-menu li {
+    float: left;
+}
+.sylabus-main-menu li a {
+    display: block;
+    color: white;
+    padding: 28px;
+    font-family: gill_sanssemibold;
+}
+.button.sylabus-request-sylabus a {
+  background: #ffffff;
+  box-shadow: 2px 2px 0 #cccccc;
+  text-transform: uppercase;
+  color: #424244;
+}
+.button.sylabus-enroll a {
+  background: #ee3924;
+box-shadow: 3px 3px 0 #a93b22;
+color: #fff;
+  text-transform: uppercase;
+}
+.grey-space{
+  background-color: #f1f2f2;
+  height: 50px;
+  width: 100%;
+}
+.sylabus-content-box{
+  background: #fff;
+}
+.sc-left{
+  float: left;
+  width: 55%;
+  background-color: #ffffff;
+}
+.sc-right{
+  float: left;
+  width: 45%;
+  margin-top: -50px;
+}
+.sc-title{
+  font-family: gobold_thin_light_italicIt;
+  font-size: 36px;
+  padding: 20px 0 10px 0;
+  margin-left: 15px;
+  color: #424244;
+  font-weight: 100;
+  display: inline-block;
+  border-bottom: 10px solid #56dab8;
+}
+.sc-data{
+  font-family: gill_sanssemibold;
+  font-weight: 100;
+  padding: 10px 0 10px 15px;
+  line-height: 20px;
+  color: #686868;
+}
+.syllabus-panel{
+  float: left;
+}
+.syllabus-panel.sub{
+  width: 50%;
+}
+.sub .sc-title{
+  color: #808285;
+}
+.sub h4{
+  font-family: gill_sanssemibold;
+  font-weight: 100;
+  padding: 20px 0 0 15px;
+  line-height: 20px;
 }
