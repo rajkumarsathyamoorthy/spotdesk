@@ -15,29 +15,48 @@
     .event-rt-ls li {
         margin: 0 0 10px 32px;
     }
-    .header-one-wrapper{
-      width: 100%;
+    .header-one-wrapper {
+        width: 100%;
     }
 }
 @media all and (min-width: 991px) and (max-width: 1180px) {
-  .header-one-wrapper{
-    width: 100%;
-  }
-  .main-container {
-      background-size: cover;
-  }
-  .main-menu li a {
-    padding: 28px 20px;
-}
-  .event-dc-right, .event-dc-left {
-    float: none;
-    width: 100%;
-  }
-  .ban-right-portion {
-    padding: 0 46px;
-  }
-  .ban-right-portion h2 {
-    font-size: 50px;
-}
-
+    .header-one-wrapper {
+        width: 100%;
+    }
+    .sylabus-main-menu li a {
+        padding: 28px 18px;
+    }
+    .main-container {
+        background-size: cover;
+    }
+    .main-menu li a {
+        padding: 28px 20px;
+    }
+    .sc-left,
+    .sc-right {
+        width: 100%;
+        float: none;
+    }
+    .sylabus {
+        float: none;
+        width: 100%;
+        padding-left: 0;
+    }
+    .event-dc-right,
+    .event-dc-left {
+        float: none;
+        width: 100%;
+    }
+    .ban-right-portion {
+        padding: 0 46px;
+    }
+    .ban-right-portion h2 {
+        font-size: 50px;
+    }
+    .green-button-left {
+        margin: 20px 20px;
+        float: none;
+        width: 552px;
+        padding-left: 20px;
+    }
 }
