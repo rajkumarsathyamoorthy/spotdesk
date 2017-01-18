@@ -247,7 +247,7 @@ body {
     display: block;
     color: white;
     padding: 28px;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
 }
 .button a {
     padding: 7px 30px 7px 20px !important;
@@ -274,7 +274,7 @@ body {
 .button {
     display: inline-block;
     margin-bottom: 5px;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
 }
 .button.sign-up a {
     background: #7bd1e8;
@@ -344,7 +344,7 @@ body {
 }
 .small-hdr {
     text-transform: uppercase;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     font-size: 20px;
     font-weight: 100;
     margin-top: 23px;
@@ -376,7 +376,7 @@ body {
     font-size: 22px;
     font-weight: 100;
     line-height: 25px;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
 }
 .ban-content-firsthdr {
     font-family: gobold_thin_light_italicIt;
@@ -474,7 +474,7 @@ body {
 .event-desc {
     margin: 20px;
     color: #fff;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     font-weight: 100;
 }
 .event-desc p {
@@ -530,7 +530,7 @@ body {
 .event-rt-desc {
     margin: 20px;
     color: #fff;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     font-weight: 100;
 }
 .event-rt-desc p {
@@ -599,7 +599,7 @@ body {
 .wwa-content-left {
     float: left;
     width: 50%;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     overflow: hidden;
     color: #424244;
     padding: 50px 0 0 30px;
@@ -673,7 +673,7 @@ body {
 }
 .footer-one-wrapper {
     width: 80%;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     margin: 0 auto;
 }
 .left-footer {
@@ -925,10 +925,10 @@ body {
     display: block;
     color: white;
     padding: 28px;
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     position: relative;
 }
-.sylabus-main-menu li a:after {
+.sylabus-main-menu li a::before {
     position: absolute;
     border-top: 10px solid transparent;
     border-left: 10px solid transparent;
@@ -941,7 +941,7 @@ body {
     left: 45%;
     visibility: hidden;
 }
-.sylabus-main-menu li.active a:after {
+.sylabus-main-menu li.active a::before {
     visibility: visible;
 }
 .button.sylabus-request-sylabus a {
@@ -995,13 +995,13 @@ body {
 }
 .sc-title {
     font-family: gobold_thin_light_italicIt;
-    font-size: 36px;
+    font-size: 24pt;
     padding: 20px 0 10px 0;
     margin-left: 15px;
     color: #424244;
     font-weight: 100;
     display: inline-block;
-    border-bottom: 10px solid #56dab8;
+    border-bottom: 15px solid #56dab8;
 }
 .triangle-grey {
     content: "";
@@ -1020,7 +1020,7 @@ body {
     z-index: 1;
 }
 .sc-data {
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     font-weight: 100;
     padding: 10px 0 10px 15px;
     line-height: 20px;
@@ -1046,7 +1046,7 @@ body {
     color: #808285;
 }
 .sub h4 {
-    font-family: gill_sanssemibold;
+    font-family: gill_sanssemibold, calibri, helvetica;
     font-weight: 100;
     padding: 20px 0 0 15px;
     line-height: 20px;
