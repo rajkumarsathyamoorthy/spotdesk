@@ -215,4 +215,74 @@
         margin: 20px auto;
         float: none;
     }
+
+
+    .ban-middle-portion {
+      padding: 10px;
+  }
+  .ban-center-title{
+    line-height: 55px;
+  }
+  .grey-big-title-container, .authour-tdcd-box-left, .authour-tdcd-box-right, .authour-tdc-details-left, .authour-tdc-details-right, .pdc-left, .pdc-right, .page-desc-container, .authour-tech-details-container, .upcoming-courses-container, .grey-big-title-container, .teachers-box-cont{
+    width: 100%;
+    padding: 10px;
+  }
+  .grey-big-title{
+    padding: 10px;
+font-size: 39px;
+  }
+  .pdc-right-social{
+    position: relative;
+    right: 0;
+    left:0;
+  }
+  .upcoming-courses-list li{
+    width: 46%;
+  }
+  .teachers-list li {
+    float: left;
+    list-style: none;
+    width: 45%;
+    margin: 0 2.5% 20px 2.5%;
+    text-align: center;
+}
+  .authour-tdc-details-left{
+    text-align: center;
+  }
+  .yellow-arrow{
+    display: none;
+  }
+}
+@media all and (min-width:768px) and (max-width:1024px){
+  .ban-middle-portion {
+    padding: 20px;
+}
+.ban-center-title{
+    line-height: 60px;
+}
+.grey-big-title-container, .pdc-left, .pdc-right, .page-desc-container, .authour-tech-details-container, .upcoming-courses-container, .grey-big-title-container, .teachers-box-cont{
+  width: 100%;
+  padding: 20px;
+}
+.yellow-arrow{
+  display: none;
+}
+.pdc-right-social{
+  position: relative;
+  right: 0;
+  left:0;
+}
+.authour-tdc-details-left {
+    width: 40%;
+}
+.authour-tdc-details-right {
+    width: 60%;
+}
+.upcoming-courses-list li {
+    width: 30.33%;
+}
+.teacher-face {
+    height: 200px;
+    width: 100%;
+}
 }
