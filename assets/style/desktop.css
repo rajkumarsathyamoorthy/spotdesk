@@ -59,4 +59,7 @@
         width: 552px;
         padding-left: 20px;
     }
+    .upcoming-courses-list.whitelist li{
+      width: 100%;
+    }
 }

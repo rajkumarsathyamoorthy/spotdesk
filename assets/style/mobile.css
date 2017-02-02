@@ -2,16 +2,10 @@
     .header-one-wrapper {
         width: 100%;
     }
-    .events,
-    .who-we-are {
+    .events, .who-we-are {
         padding-left: 0;
     }
-    .triangle-one,
-    .triangle-two,
-    .triangle-three,
-    .triangle-four,
-    .triangle-five,
-    .triangle-one-green {
+    .triangle-one, .triangle-two, .triangle-three, .triangle-four, .triangle-five, .triangle-one-green {
         display: none;
     }
     .footer-one-wrapper {
@@ -44,19 +38,14 @@
         float: none;
         padding-bottom: 0;
     }
-    .wwa-small-hdr4,
-    .wwa-small-hdr3,
-    .wwa-small-hdr2,
-    .wwa-small-hdr1 {
+    .wwa-small-hdr4, .wwa-small-hdr3, .wwa-small-hdr2, .wwa-small-hdr1 {
         margin-top: 20px;
     }
-    .event-dc-left,
-    .event-dc-right {
+    .event-dc-left, .event-dc-right {
         float: none;
         width: 100%;
     }
-    .event-ls-right,
-    .event-ls-left {
+    .event-ls-right, .event-ls-left {
         width: 100%;
         float: none;
     }
@@ -70,8 +59,7 @@
         float: none;
         width: 100%;
     }
-    .ban-left-portion,
-    .ban-right-portion {
+    .ban-left-portion, .ban-right-portion {
         width: 100%;
         float: none;
     }
@@ -128,20 +116,14 @@
         width: 100%;
         text-align: center;
     }
-    .event-list li,
-    .events-hdr,
-    .wwa-hdr,
-    .event-rt,
-    .ban-left-portion,
-    .ban-right-portion {
+    .event-list li, .events-hdr, .wwa-hdr, .event-rt, .ban-left-portion, .ban-right-portion {
         text-align: center;
     }
     .event-rt-ls-right {
         float: none;
         width: 100%;
     }
-    .events-hdr,
-    .wwa-hdr {
+    .events-hdr, .wwa-hdr {
         padding: 20px 10px 20px 20px;
         font-size: 30px;
     }
@@ -164,8 +146,7 @@
         width: 100%;
         padding-left: 0;
     }
-    .sc-left,
-    .sc-right {
+    .sc-left, .sc-right {
         width: 100%;
         float: none;
     }
@@ -177,8 +158,7 @@
         padding: 0;
         overflow: hidden;
     }
-    .green-button,
-    .green-button-left {
+    .green-button, .green-button-left {
         text-align: center;
         width: 50%;
         float: left;
@@ -186,8 +166,7 @@
     .sylabus-main-menu li.active a:after {
         visibility: hidden;
     }
-    .gb-group:after,
-    .gb-group:before {
+    .gb-group:after, .gb-group:before {
         display: none;
     }
     .dates .sc-title {
@@ -200,89 +179,112 @@
     .gb-group {
         margin-top: 10px;
     }
-    .syllabus-panel.sub,
-    .syllabus-panel.formore {
+    .syllabus-panel.sub, .syllabus-panel.formore {
         float: none;
         width: 100%;
     }
 }
+
 @media all and (max-width: 767px) {
-    .green-button,
-    .green-button-left {
+    .green-button, .green-button-left {
         text-align: center;
         width: 320px;
         display: block;
         margin: 20px auto;
         float: none;
     }
-
-
     .ban-middle-portion {
-      padding: 10px;
-  }
-  .ban-center-title{
-    line-height: 55px;
-  }
-  .grey-big-title-container, .authour-tdcd-box-left, .authour-tdcd-box-right, .authour-tdc-details-left, .authour-tdc-details-right, .pdc-left, .pdc-right, .page-desc-container, .authour-tech-details-container, .upcoming-courses-container, .grey-big-title-container, .teachers-box-cont{
-    width: 100%;
-    padding: 10px;
-  }
-  .grey-big-title{
-    padding: 10px;
-font-size: 39px;
-  }
-  .pdc-right-social{
-    position: relative;
-    right: 0;
-    left:0;
-  }
-  .upcoming-courses-list li{
-    width: 46%;
-  }
-  .teachers-list li {
-    float: left;
-    list-style: none;
-    width: 45%;
-    margin: 0 2.5% 20px 2.5%;
-    text-align: center;
+        padding: 10px;
+    }
+    .ban-center-title {
+        line-height: 55px;
+    }
+    .grey-big-title-container, .authour-tdcd-box-left, .authour-tdcd-box-right, .authour-tdc-details-left, .authour-tdc-details-right, .pdc-left, .pdc-right, .page-desc-container, .authour-tech-details-container, .upcoming-courses-container, .grey-big-title-container, .teachers-box-cont {
+        width: 100%;
+        padding: 10px;
+    }
+    .grey-big-title {
+        padding: 10px;
+        font-size: 39px;
+    }
+    .pdc-right-social {
+        position: relative;
+        right: 0;
+        left: 0;
+    }
+    .upcoming-courses-list li {
+        width: 46%;
+    }
+    .teachers-list li {
+        float: left;
+        list-style: none;
+        width: 45%;
+        margin: 0 2.5% 20px 2.5%;
+        text-align: center;
+    }
+    .authour-tdc-details-left {
+        text-align: center;
+    }
+    .yellow-arrow {
+        display: none;
+    }
+    .blog-page-desc{
+      width: 100%;
+      padding: 0 15px;
+      margin: 0;
+    }
+    .blog-post-details{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    .blog-post-details-left, .blog-post-details-right{
+      width: 100%;
+      padding: 15px 0;
+    }
+    .upcoming-courses-list.whitelist li{
+      width: 100%;
+      text-align: center;
+    }
+
 }
-  .authour-tdc-details-left{
-    text-align: center;
-  }
-  .yellow-arrow{
-    display: none;
-  }
-}
-@media all and (min-width:768px) and (max-width:1024px){
-  .ban-middle-portion {
-    padding: 20px;
-}
-.ban-center-title{
-    line-height: 60px;
-}
-.grey-big-title-container, .pdc-left, .pdc-right, .page-desc-container, .authour-tech-details-container, .upcoming-courses-container, .grey-big-title-container, .teachers-box-cont{
-  width: 100%;
-  padding: 20px;
-}
-.yellow-arrow{
-  display: none;
-}
-.pdc-right-social{
-  position: relative;
-  right: 0;
-  left:0;
-}
-.authour-tdc-details-left {
-    width: 40%;
-}
-.authour-tdc-details-right {
-    width: 60%;
-}
-.upcoming-courses-list li {
-    width: 30.33%;
-}
-.teacher-face {
-    height: 200px;
-    width: 100%;
-}
+
+@media all and (min-width:768px) and (max-width:1024px) {
+    .ban-middle-portion {
+        padding: 20px;
+    }
+    .ban-center-title {
+        line-height: 60px;
+    }
+    .grey-big-title-container, .pdc-left, .pdc-right, .page-desc-container, .authour-tech-details-container, .upcoming-courses-container, .grey-big-title-container, .teachers-box-cont {
+        width: 100%;
+        padding: 20px;
+    }
+    .yellow-arrow {
+        display: none;
+    }
+    .pdc-right-social {
+        position: relative;
+        right: 0;
+        left: 0;
+    }
+    .authour-tdc-details-left {
+        width: 40%;
+    }
+    .authour-tdc-details-right {
+        width: 60%;
+    }
+    .upcoming-courses-list li {
+        width: 30.33%;
+    }
+    .teacher-face {
+        height: 200px;
+        width: 100%;
+    }
+    .blog-post-details{
+          width: 100%;
+    }
+    .upcoming-courses-list.whitelist li{
+      width: 100%;
+    }
 }

@@ -1719,3 +1719,39 @@ html, body {
   background: #ab1f67;
 box-shadow: 3px 3px 0 #ed196d;
 }
+.popular-post{
+  background: #fff;
+  border: 2px solid #88cdb1;
+  padding: 20px 10px 10px 35px;
+}
+.popular-post li{
+  list-style: none;
+  font-family: gill_sanssemibold, calibri, helvetica;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  list-style-type: decimal;
+    text-indent: 5px;
+}
+.popular-post li a{
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding-bottom: 6px;
+}
+.inner-blog-banner{
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.inner-blog-banner img{
+  width: 100%;
+}
+.inner-blog-content{
+  border: 2px solid #88cdb1;
+  padding: 25px;
+  font-family: calibri, helvetica;
+  font-size: 16px;
+}
+.inner-blog-content p{
+  line-height: 20px;
+  margin-bottom: 10px;
+}
