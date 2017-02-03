@@ -671,7 +671,7 @@ html, body {
 .footer {
     float: left;
     overflow: hidden;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     width: 100%;
     background: #424244;
 }
@@ -702,17 +702,17 @@ html, body {
 
 .left-footer {
     float: left;
-    width: 50%;
+    width: 55%;
 }
 
 .right-footer {
     float: left;
-    width: 50%;
+    width: 45%;
 }
 
 .footer-content {
     color: #929091;
-    margin-top: 40px;
+    margin-top: 0;
     line-height: 22px;
     font-size: 14px;
     font-weight: normal;
@@ -786,8 +786,8 @@ html, body {
 }
 
 .rf-links {
-    float: right;
-    margin-right: 30%;
+    float: left;
+    margin-left: 25px;
 }
 
 .rf-links h5 {
@@ -1268,7 +1268,7 @@ html, body {
 .authour-tech-title {
     font-family: gobold_thin_light_italicIt;
     font-size: 28px;
-    padding: 20px 0 0 15px;
+    padding: 20px 0 0 0;
     color: #424244;
     font-weight: 100;
     margin-bottom: 20px;
@@ -1510,7 +1510,7 @@ html, body {
     padding: 60px 10px 20px 20px;
     font-size: 60px;
     color: #333;
-        text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .teachers-box {
@@ -1520,34 +1520,37 @@ html, body {
     width: 100%;
 }
 
-.workshop-list{
-  float: left;
-  background: #ffffff;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
+.workshop-list {
+    float: left;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
-.free-content{
-  font-family:calibri, helvetica;
-  line-height: 20px;
-  font-size: 16px;
-  width: 70%;
-  margin-bottom: 20px;
+
+.free-content {
+    font-family: calibri, helvetica;
+    line-height: 20px;
+    font-size: 16px;
+    width: 70%;
+    margin-bottom: 20px;
 }
-.free-borderbot-heading .titletag{
-  font-family: gobold_thin_light_italicIt, calibri, helvetica;
-  font-size: 50px;
-  color: #555;
-  border-bottom: 10px solid #88cdb1;
-  text-transform: uppercase;
-  padding-bottom: 10px;
-  margin: 20px 0;
+
+.free-borderbot-heading .titletag {
+    font-family: gobold_thin_light_italicIt, calibri, helvetica;
+    font-size: 50px;
+    color: #555;
+    border-bottom: 10px solid #88cdb1;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 20px 0;
 }
-.free-borderbot-heading span{
-  font-family: gobold_thin_light_italicIt, calibri, helvetica;
-  font-size: 50px;
-  color: #555;
-  display: inline-block;
+
+.free-borderbot-heading span {
+    font-family: gobold_thin_light_italicIt, calibri, helvetica;
+    font-size: 50px;
+    color: #555;
+    display: inline-block;
 }
 
 .teachers-box-cont {
@@ -1564,7 +1567,8 @@ html, body {
 }
 
 .teachers-name {
-    font-family: gobold_thin_light_italicIt, calibri, helvetica;;
+    font-family: gobold_thin_light_italicIt, calibri, helvetica;
+    ;
     font-size: 28px;
     padding: 20px 0 5px 0;
     color: #424244;
@@ -1639,6 +1643,7 @@ html, body {
 .grey-big-title-box.blue-big-title {
     background: #506db5;
 }
+
 .grey-big-title-box.pink-big-title {
     background: #ab1f66;
 }
@@ -1646,13 +1651,15 @@ html, body {
 .blue-big-title .grey-big-title {
     color: #fff;
 }
-.pink-big-title .grey-big-title{
-  color: #fff;
+
+.pink-big-title .grey-big-title {
+    color: #fff;
 }
 
 .yellow-arrow.blue-arrow {
     border-left-color: #506db5 !important;
 }
+
 .yellow-arrow.pink-arrow {
     border-left-color: #ab1f66 !important;
 }
@@ -1670,163 +1677,366 @@ html, body {
     margin: 0 auto;
     padding: 20px;
 }
-.tab-section li{
-  list-style: none;
-  float: left;
+
+.tab-section li {
+    list-style: none;
+    float: left;
 }
-.tab-section{
-  margin:0 0 20px 0;
-  position: relative;
-  z-index: 2;
+
+.tab-section {
+    margin: 0 0 20px 0;
+    position: relative;
+    z-index: 2;
 }
-.tab-section li:first-child a{
-  border: none;
+
+.tab-section li:first-child a {
+    border: none;
 }
-.tab-section li a{
-  display: inline-block;
-  font-family: calibri, helvetica;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  padding: 0 10px;
-  border-left: 2px solid #333;
-  color: #333;
+
+.tab-section li a {
+    display: inline-block;
+    font-family: calibri, helvetica;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    border-left: 2px solid #333;
+    color: #333;
 }
-.tab-section li.active a{
-  font-weight: bold;
+
+.tab-section li.active a {
+    font-weight: bold;
 }
-.blog-post-details{
-  overflow: hidden;
-  width: 80%;
-  margin: 0 auto;
-  padding: 20px;
+
+.blog-post-details {
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
 }
-.blog-post-details-left{
-  float: left;
-  width: 60%;
+
+.blog-post-details-left {
+    float: left;
+    width: 60%;
 }
-.blog-post-details-right{
-  float: left;
-  width: 40%;
-  padding-left: 25px;
-      padding-top: 52px;
+
+.blog-post-details-right {
+    float: left;
+    width: 40%;
+    padding-left: 25px;
+    padding-top: 52px;
 }
-.box-content{
-  border:2px solid #88cdb1;
-  font-family: calibri, helvetica;
-      padding: 20px;
-      margin-bottom: 30px;
+
+.box-content {
+    border: 2px solid #88cdb1;
+    font-family: calibri, helvetica;
+    padding: 20px;
+    margin-bottom: 30px;
 }
-.blog-post-details-right .blog-post-details-left-title{
-  border: none;
+
+.box-content.borderless {
+    border: none;
 }
-.box-content-title{
-  font-size: 18px;
-  margin-bottom: 10px;
+
+.blog-post-details-right .blog-post-details-left-title {
+    border: none;
 }
-.box-content-desc{
-  font-size: 16px;
-  margin-bottom: 10px;
-  line-height: 20px;
+
+.box-content-title {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
-.box-content-more{
+
+.box-content-desc {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+.box-content-more {
     text-align: right;
 }
-.box-content-more a{
-  color: #333;
-  font-size: 20px;
-  font-weight: bold;
+
+.box-content-more a {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
 }
-.blog-post-details-left-title{
-  font-family: gobold_thin_light_italicIt;
-  text-transform: uppercase;
-  margin: 0 0 15px 0;
-  font-size: 26px;
-  color: #424244;
-  font-weight: 100;
-  border-bottom: 12px solid #88cdb1;
-  width: auto;
-  display: inline-block;
-  padding-bottom: 3px;
+
+.blog-post-details-left-title {
+    font-family: gobold_thin_light_italicIt;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    font-size: 26px;
+    color: #424244;
+    font-weight: 100;
+    border-bottom: 12px solid #88cdb1;
+    width: auto;
+    display: inline-block;
+    padding-bottom: 3px;
 }
-.upcoming-courses-list.whitelist li{
+
+.upcoming-courses-list.whitelist li {
     background: #fff;
     border: 2px solid #88cdb1;
     width: 46%;
     margin-left: 0;
     margin-right: 3%;
 }
-.upcoming-courses-list.workshop li{
+
+.upcoming-courses-list.workshop li {
     background: #fff;
     border: 2px solid #88cdb1;
     width: 225px;
     margin-left: 0;
     margin-right: 3.33%;
 }
-.ucl-amt.meetup{
-  background: #ab1f67;
-box-shadow: 3px 3px 0 #ed196d;
+
+.ucl-amt.meetup {
+    background: #ab1f67;
+    box-shadow: 3px 3px 0 #ed196d;
 }
-.popular-post{
-  background: #fff;
-  border: 2px solid #88cdb1;
-  padding: 20px 10px 10px 35px;
+
+.popular-post {
+    background: #fff;
+    border: 2px solid #88cdb1;
+    padding: 20px 10px 10px 35px;
 }
-.popular-post li{
-  list-style: none;
-  font-family: gill_sanssemibold, calibri, helvetica;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  list-style-type: decimal;
+
+.popular-post li {
+    list-style: none;
+    font-family: gill_sanssemibold, calibri, helvetica;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    list-style-type: decimal;
     text-indent: 5px;
 }
-.popular-post li a{
-  display: block;
-  text-decoration: none;
-  color: #333;
-  padding-bottom: 6px;
+
+.popular-post li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding-bottom: 6px;
 }
-.inner-blog-banner{
-  margin-bottom: 15px;
-  margin-top: 20px;
+
+.inner-blog-banner {
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
-.inner-blog-banner img{
-  width: 100%;
+
+.inner-blog-banner img {
+    width: 100%;
 }
-.inner-blog-content{
-  border: 2px solid #88cdb1;
-  padding: 25px;
-  font-family: calibri, helvetica;
-  font-size: 16px;
+
+.inner-blog-content {
+    border: 2px solid #88cdb1;
+    padding: 25px;
+    font-family: calibri, helvetica;
+    font-size: 16px;
 }
-.inner-blog-content p{
-  line-height: 20px;
-  margin-bottom: 10px;
+
+.inner-blog-content p {
+    line-height: 20px;
+    margin-bottom: 10px;
 }
-.workshop .ucl-moreinfo{
-  background: #80ccb2;
-  box-shadow: 3px 3px 0 #19af96;
-  padding: 8px 15px 8px 8px;
+
+.workshop .ucl-moreinfo {
+    background: #80ccb2;
+    box-shadow: 3px 3px 0 #19af96;
+    padding: 8px 15px 8px 8px;
 }
-.center-button{
-  text-align: center;
+
+.center-button {
+    text-align: center;
 }
-.center-button a{
-  padding: 15px 20px;
-  font-size: 16px;
+
+.center-button a {
+    padding: 15px 20px;
+    font-size: 16px;
 }
-.grey-big-title-box.grey{
-  background: #424244;
+
+.grey-big-title-box.grey {
+    background: #424244;
 }
-.grey-big-title-box.grey .grey-big-title{
-  color: #fff;
+
+.grey-big-title-box.grey .grey-big-title {
+    color: #fff;
 }
-.yellow-arrow.grey{
-  border-left-color: #424244 !important;
+
+.yellow-arrow.grey {
+    border-left-color: #424244 !important;
 }
-.upcoming-courses-list.courses li{
-  background: #fff;
-  border: 2px solid #88cdb1;
-  width: 27%;
-  margin-left: 0;
-  margin-right: 6.33%;
+
+.upcoming-courses-list.courses li {
+    background: #fff;
+    border: 2px solid #88cdb1;
+    width: 27%;
+    margin-left: 0;
+    margin-right: 6.33%;
 }
+
+.footer-title {
+    font-family: gobold_thin_light_italicIt, calibri, helvetica;
+    font-size: 50px;
+    color: #fff;
+    border-bottom: 10px solid #88cdb1;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.ucl-moreinfo.footer-btn {
+    background: #80ccb2;
+    box-shadow: 3px 3px 0 #19af96;
+    padding: 15px 30px 15px 20px;
+    margin: 0 0 20px 0;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+    border-top: 1px solid #929091;
+}
+
+.footer-cotactus {
+    color: #fff;
+    font-family: calibri, helvetica;
+}
+
+.footer-contact-left {
+    float: left;
+    padding: 10px 30px 10px 10px;
+}
+
+.footer-contact-left h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-contact-left p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.footer-contact-left a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footbot-left {
+    float: left;
+    line-height: 50px;
+    font-size: 14px;
+    color: #929091;
+}
+
+.footbot-right {
+    float: right;
+    padding-top: 10px;
+}
+
+.box-content-left {
+    float: left;
+    width: 30%;
+}
+
+.box-content-right {
+    float: left;
+    width: 70%;
+    padding-left: 10px;
+}
+
+.box-content-left .teacher-face {
+    height: auto;
+}
+
+.box-content-left .teacher-face img {
+    height: auto;
+    background: #fff;
+}
+
+.upcoming-courses-list.seperate {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.ninety{
+  width: 88%;
+}
+.gb {
+    border-bottom: 15px solid #56dab8 !important;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.bb {
+    border-bottom: 15px solid #79d1e9 !important;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.ucl-moreinfo.small {
+    background: #80ccb2;
+    box-shadow: 3px 3px 0 #19af96;
+    padding: 8px 15px 8px 8px;
+}
+
+.upcoming-courses-list.seperate li {
+    background: #fff;
+    border: 2px solid #88cdb1;
+    width: 225px;
+    margin-left: 0;
+    margin-right: 3.33%;
+}
+
+.fly-data {
+    font-family: gill_sanssemibold, calibri, helvetica;
+    font-weight: 100;
+    padding: 10px 0 10px 0;
+    line-height: 20px;
+    color: #333;
+}
+
+.about-teacher-btn {
+    background: #79d1e9;
+    box-shadow: 3px 3px 0 #1db2e7;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 30px 10px 26px !important;
+    font-family: gill_sanssemibold, calibri, helvetica;
+    margin: 10px 0 15px 0;
+    text-transform: uppercase;
+}
+
+.for-more-box {
+    background: #f5f7f6;
+    width: 100%;
+    float: left;
+}
+
+.for-more-box-c {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.border-blog {
+    float: left;
+    border: 2px solid #88cdb1;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.for-more-box-c h4 {
+    font-family: gobold_thin_light_italicIt;
+    font-size: 28px;
+    padding: 10px 0 0 0;
+    color: #424244;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.for-more-box-c a {}
