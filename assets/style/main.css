@@ -1508,8 +1508,9 @@ html, body {
 .grey-big-title {
     font-family: gobold_thin_light_italicIt;
     padding: 60px 10px 20px 20px;
-    font-size: 72px;
+    font-size: 60px;
     color: #333;
+        text-transform: uppercase;
 }
 
 .teachers-box {
@@ -1517,6 +1518,36 @@ html, body {
     float: left;
     overflow: hidden;
     width: 100%;
+}
+
+.workshop-list{
+  float: left;
+  background: #ffffff;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.free-content{
+  font-family:calibri, helvetica;
+  line-height: 20px;
+  font-size: 16px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.free-borderbot-heading .titletag{
+  font-family: gobold_thin_light_italicIt, calibri, helvetica;
+  font-size: 50px;
+  color: #555;
+  border-bottom: 10px solid #88cdb1;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  margin: 20px 0;
+}
+.free-borderbot-heading span{
+  font-family: gobold_thin_light_italicIt, calibri, helvetica;
+  font-size: 50px;
+  color: #555;
+  display: inline-block;
 }
 
 .teachers-box-cont {
@@ -1533,7 +1564,7 @@ html, body {
 }
 
 .teachers-name {
-    font-family: gobold_thin_light_italicIt;
+    font-family: gobold_thin_light_italicIt, calibri, helvetica;;
     font-size: 28px;
     padding: 20px 0 5px 0;
     color: #424244;
@@ -1608,13 +1639,22 @@ html, body {
 .grey-big-title-box.blue-big-title {
     background: #506db5;
 }
+.grey-big-title-box.pink-big-title {
+    background: #ab1f66;
+}
 
 .blue-big-title .grey-big-title {
     color: #fff;
 }
+.pink-big-title .grey-big-title{
+  color: #fff;
+}
 
 .yellow-arrow.blue-arrow {
     border-left-color: #506db5 !important;
+}
+.yellow-arrow.pink-arrow {
+    border-left-color: #ab1f66 !important;
 }
 
 .blog-page-desc {
@@ -1715,6 +1755,13 @@ html, body {
     margin-left: 0;
     margin-right: 3%;
 }
+.upcoming-courses-list.workshop li{
+    background: #fff;
+    border: 2px solid #88cdb1;
+    width: 225px;
+    margin-left: 0;
+    margin-right: 3.33%;
+}
 .ucl-amt.meetup{
   background: #ab1f67;
 box-shadow: 3px 3px 0 #ed196d;
@@ -1754,4 +1801,32 @@ box-shadow: 3px 3px 0 #ed196d;
 .inner-blog-content p{
   line-height: 20px;
   margin-bottom: 10px;
+}
+.workshop .ucl-moreinfo{
+  background: #80ccb2;
+  box-shadow: 3px 3px 0 #19af96;
+  padding: 8px 15px 8px 8px;
+}
+.center-button{
+  text-align: center;
+}
+.center-button a{
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.grey-big-title-box.grey{
+  background: #424244;
+}
+.grey-big-title-box.grey .grey-big-title{
+  color: #fff;
+}
+.yellow-arrow.grey{
+  border-left-color: #424244 !important;
+}
+.upcoming-courses-list.courses li{
+  background: #fff;
+  border: 2px solid #88cdb1;
+  width: 27%;
+  margin-left: 0;
+  margin-right: 6.33%;
 }
