@@ -698,6 +698,7 @@ html, body {
     width: 80%;
     font-family: gill_sanssemibold, calibri, helvetica;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .left-footer {
@@ -879,7 +880,7 @@ html, body {
 }
 
 .scr-banner {
-    width: 100%;
+    max-width: 100%;
 }
 
 .triangle-white.tr2 {
@@ -890,6 +891,12 @@ html, body {
     transform: rotate(135deg);
     top: 42px;
     left: -266px;
+}
+.fullpage-with-pad .sc-left{
+  width: 40%;
+}
+.fullpage-with-pad .sc-right{
+  width: 60%;
 }
 
 .triangle-one {
@@ -1338,6 +1345,7 @@ html, body {
 
 .upcoming-courses-list {
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .upcoming-courses-list li {
@@ -1354,7 +1362,7 @@ html, body {
     font-family: gobold_thin_light_italicIt;
     text-transform: uppercase;
     margin: 0 0 15px 0;
-    font-size: 26px;
+    font-size: 22px;
     color: #424244;
     font-weight: 100;
     border-bottom: 12px solid #fff;
@@ -1373,7 +1381,7 @@ html, body {
     background: #79d1e9;
     box-shadow: 3px 3px 0 #1db2e7;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     display: inline-block;
     padding: 15px 30px 15px 26px !important;
     font-family: gill_sanssemibold, calibri, helvetica;
@@ -2040,3 +2048,198 @@ html, body {
 }
 
 .for-more-box-c a {}
+.workshop .ucl-name{
+  font-size: 26px;
+}
+.upcoming-course .sc-title{
+  margin: 20px 0;
+}
+.upcoming-course .ucl-name{
+  font-size: 24px;
+}
+.remove-border{
+  border: none;
+}
+.for-more-btn-blog{
+  float: left;
+}
+.general-title{
+  font-family: gobold_thin_light_italicIt;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+    font-size: 22px;
+    color: #424244;
+    font-weight: 100;
+    border-bottom: 12px solid #fff;
+    width: auto;
+    display: block;
+    padding-bottom: 3px;
+}
+.for-more-btn-blog .request-syllabus a{
+  margin: 0;
+}
+.mt15{
+  margin-top: 15px;
+}
+.mt25{
+  margin-top: 25px;
+}
+.for-more-box-d{
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+.grey-big-title-box.green{
+  background: #56dab8;
+}
+.yellow-arrow.green {
+    border-left-color: #56dab8 !important;
+}
+.fullpage-with-pad{
+  width: 100%;
+  margin: 0 auto;
+  padding:20px 0 20px 160px;
+}
+.fullpage-with-pad .scr-banner{
+  padding-left: 100px;
+  float: right;
+}
+.unique {
+    color: #424244;
+    margin-top: 20px;
+}
+.sc-left .unique:first-child{
+  margin-top: 30px;
+}
+.mb30{
+  margin-bottom: 30px;
+}
+.mt100{
+  margin-top: 150px;
+}
+.unique h4{
+  font-size: 26px;
+font-weight: 100;
+text-transform: uppercase;
+margin-bottom: 5px;
+line-height: 28px;
+}
+.unique p{
+  font-family: calibri, helvetica;
+  font-size: 16px;
+line-height: 20px;
+}
+.image-qoutes{
+  font-size: 20px;
+  line-height: 30px;
+  color: #424244;
+  font-weight: 100;
+    padding-left: 100px;
+    padding-right: 120px;
+    margin-top: 30px;
+    float: right;
+}
+.ta-center{
+  text-align: center;
+}
+.ucl-amt.medium{
+  font-size: 20px;
+}
+
+/* popup */
+
+.popup{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:rgba(8, 0, 0, 0.7);
+}
+.popup-box{
+  background: #eceded;
+box-shadow: 3px 3px 0px #b0afad;
+padding: 5px;
+width: 420px;
+margin: auto;
+position: absolute;
+left: 0;
+right: 0;
+top: 10%;
+}
+.pb-hdr{
+    font-family: gobold_thin_light_italicIt, calibri, helvetica;
+        padding: 0 20px;
+}
+.pb-hdr .close{
+    font-size: 30px;
+    color: #555;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 10px;
+    margin: 20px 0;
+    float: right;
+    background: #b4b7b9;
+    text-align: center;
+    width: 12%;
+    cursor: pointer;
+}
+.pb-hdr h2{
+  font-size: 44px;
+color: #555;
+border-bottom: 10px solid #88cdb1;
+text-transform: uppercase;
+padding-bottom: 10px;
+margin: 20px 0;
+float: left;
+width: 80%;
+line-height: 52px;
+}
+.pb-cont{
+}
+.pb-ftr{
+}
+.popup-form{
+  background: #fff;
+  padding: 10px 20px;
+  margin: 0 20px;
+}
+.popup-form label{
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+.popup-form input, .popup-form select{
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  border: 1px solid #999;
+  padding: 8px 10px;
+  width: 100%;
+  line-height: 20px;
+}
+.popup-form input{
+  font-style: italic;
+}
+.popup-btn{
+  margin-bottom: 20px;
+}
+.popup-btn .ucl-moreinfo{
+  background: #80ccb2;
+  box-shadow: 3px 3px 0 #19af96;
+  padding: 8px 65px;
+    font-size: 18px;
+}
+.pb-ftr{
+  font-style: italic;
+  font-size: 12px;
+  background: #fff;
+  margin: 0 20px 10px 20px;
+  padding: 10px;
+  line-height: 18px;
+}
+.pb-ftr a{
+  display: inline-block;
+  text-decoration: underline;
+  color: inherit;
+}
